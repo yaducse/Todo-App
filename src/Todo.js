@@ -23,7 +23,7 @@ function Todo(props) {
   const openUpdateDialog = (todo) => {
     setOpen(true);
     setToUpdateId(todo.id);
-    setUpdate(todo.name);
+    setUpdate(todo.text);
   };
 
   const editTodo = (e) => {
